@@ -1,6 +1,6 @@
 {
   "name": "word-vault-audio",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "A lightweight JavaScript package for English word pronunciations.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/LearnSmartyHQ/word-vault-audio.git"
   },
-  "homepage": "https://github.com/LearnSmartyHQ/word-vault-audio",
+  "homepage": "https://learnsmarty.com/",
   "bugs": {
     "url": "https://github.com/LearnSmartyHQ/word-vault-audio/issues"
   },
@@ -42,7 +42,7 @@
   ],
   "devDependencies": {
     "@eslint/js": "^9.18.0",
-    "@types/node": "^22.10.5",
+    "@types/node": "^22.10.7",
     "eslint": "^9.18.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",

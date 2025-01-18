@@ -1,0 +1,53 @@
+{
+  "name": "word-vault-audio",
+  "version": "0.1.0",
+  "description": "A lightweight JavaScript package for English word pronunciations.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "dictionary",
+    "pronunciation",
+    "words",
+    "english",
+    "typescript",
+    "504"
+  ],
+  "author": {
+    "name": "John Adib",
+    "url": "https://mradib.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LearnSmartyHQ/word-vault-audio.git"
+  },
+  "homepage": "https://github.com/LearnSmartyHQ/word-vault-audio",
+  "bugs": {
+    "url": "https://github.com/LearnSmartyHQ/word-vault-audio/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "files": [
+    "dist",
+    "data",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@types/node": "^22.10.5",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.19.1"
+  }
+}
